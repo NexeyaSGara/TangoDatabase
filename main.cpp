@@ -52,7 +52,6 @@ static const char *RcsId = "$Id$";
 //
 
 #include <tango.h>
-#include <dserverclass.h>
 #include <DataBase.h>
 
 #ifndef WIN32
