@@ -20,6 +20,8 @@ include(FindPkgConfig)
 pkg_search_module(TANGO_PKG REQUIRED tango)
 ENDIF()
 
+find_package(MySQL)
+
 IF (WIN32)
 add_definitions(-D_WIN32)
 add_definitions(-DWIN32)
