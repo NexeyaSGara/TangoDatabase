@@ -46,14 +46,15 @@ ENDIF()
 ENDIF()
 set(SOURCES
         ClassFactory.cpp
-        TangoTest.cpp
-        TangoTestClass.cpp
-        TangoTestStateMachine.cpp
+        Database.cpp
+        DatabaseClass.cpp
+        DatabaseStateMachine.cpp
+        DatabaseUtils.cpp
         main.cpp)
 
 set(HEADERS
-        TangoTest.h
-        TangoTestClass.h)
+        DataBase.h
+        DataBaseClass.h)
 
 IF(WIN32)
 
