@@ -51,11 +51,13 @@ set(SOURCES
         DatabaseClass.cpp
         DatabaseStateMachine.cpp
         DatabaseUtils.cpp
+        update_starter.cpp
         main.cpp)
 
 set(HEADERS
         DataBase.h
-        DataBaseClass.h)
+        DataBaseClass.h
+        update_starter.h)
 
 IF(WIN32)
 
